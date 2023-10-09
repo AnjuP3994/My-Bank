@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArcadiaBank-HomePage</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="png/image" href="https://i.pinimg.com/564x/83/1a/30/831a3056a13e05fdc84c483a26c6ff16.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container-fluid mt-2 text-light" style="width: 90%;">
+        <div class="row text-center p-2 rounded" style="background-color: rgba(0, 0, 0, 0.664);">
+            <div class="col-4"></div>
+            <div class="col-1">
+                <img height="120px" class="img rounded-pill p-1" src="https://i.pinimg.com/564x/83/1a/30/831a3056a13e05fdc84c483a26c6ff16.jpg" alt="">
+            </div>
+            <div id="heading" class="col-4">
+                    <h1 style="font-size: 1.3cm; font-weight: 700;">Arcadia <span class="bank" style="font-weight: 700;">Bank</span></h1>
+                    <h2 class="my-2">Online Banking Services</h2>
+            </div>
+            <div class="col-3"></div>
+        </div>
+            
+            
+            <div class="row mt-5 text-center">
+                <div class="col-2"></div>
+                <!-- Deposit Balance -->
+                <div class="col-3">
+                    <div class="card" style="width: 15rem; border-radius: 20px;">
+                        <div class="card-body">
+                          <h2 class="my-3" style="font-weight: 700;">Deposit</h2>
+                          <h2 class="mb-3 me-1"><i class="fa-solid fa-indian-rupee-sign me-1"></i><span style="font-size: larger;" id="deposit-primary">0</span></h2>
+                        </div>
+                      </div>
+                </div>
+                <!-- Total Balance -->
+                <div class="col-3">
+                    <div id="card" class="card" style="width: 15rem; border-radius: 20px;">
+                        <div class="card-body">
+                          <h2 class="my-3" style="font-weight: 700;">Total Balance</h2>
+                          <h2 class="mb-3 me-1"><i class="fa-solid fa-indian-rupee-sign me-1"></i><span style="font-size: larger;" id="balance-primary">1000</span></h2>
+                        </div>
+                      </div>
+                </div>
+                <!-- Withdraw Balance -->
+                <div class="col-3">
+                    <div class="card" style="width: 15rem; border-radius: 20px;">
+                        <div class="card-body">
+                          <h2 class="my-3" style="font-weight: 700;">Withdraw</h2>
+                          <h2 class="mb-3 me-1"><i class="fa-solid fa-indian-rupee-sign me-1"></i><span style="font-size: larger;" id="withdraw-primary">0</span></h2>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+
+                <div class="row my-5 text-center">
+                    <div class="col-2"></div>
+
+                    <!-- Deposit -->
+                <div class="col-4 px-4 border border-1 border-light p-3 me-3 mt-3" style="background-color: rgba(0, 0, 0, 0.300);">
+                    <h1 class="mb-3" style="font-size: 1cm; font-weight: 700;">Deposit</h1>
+                        <div style="border-top: 1px solid; color: white;">
+                            <input id="deposit-secondary" type="text" class="form-control mt-4 p-2 fs-5" placeholder="Enter Your Amount">
+                            <button id="deposit-button" class="btn btn-success fs-5 mb-2 mt-4" style="font-weight: 500;">Deposit</button>
+                        </div>
+                </div>
+            
+                <!-- Withdraw -->
+                <div class="col-4 px-4 border border-1 border-light p-3 ms-3 mt-3" style="background-color: rgba(0, 0, 0, 0.300);">
+                    <h1 class="mb-3" style="font-size: 1cm; font-weight: 700;">Withdraw</h1>
+                        <div style="border-top: 1px solid; color: white">
+                            <input id="withdraw-secondary" type="text" class="form-control mt-4 p-2 fs-5" placeholder="Enter Your Amount">
+                            <button id="withdraw-button" class="btn btn-danger fs-5 mb-2 mt-4" style="font-weight: 500;">Withdraw</button>
+                        </div>
+                </div>
+
+                <div class="col-2"></div>
+            </div>
+
+    </div>
+
+
+    <script src="./home.js"></script>
+</body>
+</html>

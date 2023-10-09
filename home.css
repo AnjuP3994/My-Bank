@@ -1,0 +1,28 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/1203763961/photo/stacked-credit-cards.jpg?s=612x612&w=0&k=20&c=bEEGZwG120WKDClhmltyAtP0kPMzNir49P4JO3pcies=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 17cm;
+}
+.bank{
+    color: rgb(199, 3, 3);
+}
+#heading{
+    margin-left: -1cm;
+}
+.card{
+    background-image: url('https://i.pinimg.com/originals/90/c5/85/90c58554fad3dd2ca1c3d5c32adb5ba3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card{
+    background-image: url('https://images.unsplash.com/photo-1546448396-6aef80193ceb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVhY2glMjBjb2xvcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+

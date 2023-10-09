@@ -1,0 +1,83 @@
+body{
+    background-image: url('https://news4sanantonio.com/resources/media/881b86d7-d0e5-42e4-a0e0-bec2e672c616-largeBlur_stimulusdebitcard.png?1591305234647');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4.7px;
+}
+#col{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBnbZrr5Ovmj6WUOY9csDy9nSBdCs7flRaPRYpHbWLfT85mX5wG86Q1WjZ-brchEmCaA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.479) inset;
+    border-radius: 20px;
+}
+.img{
+    box-shadow: 0px 0px 8px 10px gray inset;
+    padding: 3px;
+}
+.heading{
+    font-weight: 900;
+}
+.bank{
+    color: rgb(169, 0, 0);
+}
+.field{
+    background: #f8f8f8;
+    box-shadow: inset 2px 2px 5px 4px #c6c9cc,
+    inset -8px -8px 8px #fcfcfc;
+}
+.box{
+    outline: none;
+    border: none;
+    background: none;
+}
+.link{
+    color: rgb(169, 0, 0);
+}
+
+
+@media(max-width:450px){
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
+    .container{
+        padding: 0%;
+        margin: 0%;
+    }
+    .row{
+        padding: 0%;
+        margin: 0%;
+    }
+    .col-4{
+        padding: 0%;
+        margin: 0%;
+    }
+    #col{
+        width: max-content;
+    }
+}
+
+@media(min-width:450px){
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
+    .container{
+        padding: 0%;
+        margin: 0%;
+    }
+    .row{
+        padding: 0%;
+        margin: 0%;
+    }
+    .col{
+        padding: 0%;
+        margin: 0%;
+    }
+    #col{
+        width: max-content;
+    }
+}
